@@ -9,6 +9,5 @@ function nameToAttributes(arr) {
       'firstName' : driver.split(' ')
     }
   })
-  test = '123'
   console.log(test)
 }
