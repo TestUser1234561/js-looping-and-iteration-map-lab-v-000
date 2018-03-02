@@ -7,8 +7,7 @@ function nameToAttributes(arr) {
   let test = arr.map((driver) => {
     return {
       'firstName' : driver.splice(' ')
-
-  }
-})
+    }
+  })
   console.log(test)
 }
