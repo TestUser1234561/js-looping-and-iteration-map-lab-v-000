@@ -4,5 +4,5 @@ function lowerCaseDrivers(arr) {
 }
 
 function nameToAttributes(arr) {
-  return arr.map(driver => { firstName: arr.split(' ')[0], lastName: arr.split(' ')[1] })
+  return arr.map(driver => { return {firstName: arr.split(' ')[0], lastName: arr.split(' ')[1]} })
 }
